@@ -1,0 +1,25 @@
+.TeamNameCard{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    height: 280px;
+    width: 256px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    padding: 10px;
+}
+
+/* .TeamNameCard:hover{
+    background: rgba(4,9,30,0.7);
+} */
+
+.TeamNameCard a {
+    color: white;
+    text-decoration: none;
+} 
+
+.team-name-label {
+    font-size: 18px;
+}

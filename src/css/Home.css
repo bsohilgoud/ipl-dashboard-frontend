@@ -1,0 +1,43 @@
+.HomePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../static/Home_background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#welcome-heading {
+    color: white;
+    font-family: 'Inter';
+    font-size: 70px;
+} 
+
+#welcome-message{
+    color: white;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 30px;
+}
+
+#start-btn{
+    background-color: #3ca53c ;
+    height: 50px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+}
+
+#start-btn a{
+    color: white;
+    size: 40px;
+    font-family: 'Inter';
+    font-style: italic;
+    text-decoration: none;
+    height: 50px;
+    width: 160px;
+}

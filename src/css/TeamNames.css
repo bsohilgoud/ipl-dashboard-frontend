@@ -1,0 +1,21 @@
+body{
+    background-color:  rgb(20, 20, 20) !important;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    height: 100vh;
+} 
+
+#TeamNameCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+
+
+

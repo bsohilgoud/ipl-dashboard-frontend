@@ -1,0 +1,13 @@
+.smallMatchCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 11px;
+    min-width: 100px;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.smallMatchCard .status{
+    margin-top: 20px;
+}
